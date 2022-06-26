@@ -1,0 +1,68 @@
+fieldset{
+
+	max-resolution: 20%;
+	widows: 60%;
+	height: 300px;
+	border-radius: 45%;
+	font-family: 'Fjalla One',sans-serif;
+}
+
+body{
+	background-image: url(../CSS/imagen.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}	
+
+#nombre{
+	margin-left: 30%;
+
+
+}
+
+	#edad{
+		margin-left: 65%;
+		margin-top: -6%;
+	}
+
+#Profesionuoficio{
+	margin-left: 30%;
+	margin-top: -1%;
+
+}
+
+#Pasatiempo{
+	margin-left: 65%;	
+	margin-top: -2%;
+
+}
+
+#Valores{
+	margin-left: 30%;
+	margin-top: -8%;
+}
+
+#contenedor2{
+	width: 60%;
+	padding: 30px;
+	border-radius: 10px;
+	font-family: 'Anton',sans-serif;
+	margin-left: 20%;
+	background-color: rgba(0, 0, 0, 7);
+	color: white;
+	text-align: center;
+}
+fieldset #nombre p{
+	color: seagreen;
+}
+fieldset #edad p{
+	color: seagreen;
+}
+fieldset #Profesionuoficio p{
+	color: seagreen;
+}
+fieldset #Pasatiempo p{
+	color: seagreen;
+}
+fieldset #Valores p{
+	color: seagreen;
+}

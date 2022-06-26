@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Alpinet";
+    src: url("../fonts/Alpinet.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "PatchFun";
+    src: url("../fonts/PatchFun.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Warmheart";
+    src: url("../fonts/Warmheart.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "zecko-sans";
+    src: url("../fonts/Zecko-Sans.ttf") format("truetype");
+}
+
+body{
+  font-family: "Oswald", sans-serif;
+  background-color: #000000;
+  /* Pattern from https://www.heropatterns.com/ */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  color: #1e272e;
+  color: #fff;
+  font-size: 16px;
+}
+
+#titulo {
+    margin: 20px;
+    text-align: center;
+    font-family: Warmheart;
+    font-size: 6em;
+    color: white;
+    text-shadow: 4px 5px 5px #8D8DAA;
+    animation-name: colorTitulo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorTitulo {
+    0% {color: white}
+    25% {color: #FDD7AA}
+    50% {color: #5584AC}
+    100% {color: #143F6B}
+}
+
+#subtitulo {
+    text-align: center;
+    font-family: Alpinet;
+    font-size: 4em;
+    color: #FF8C32;
+    text-shadow: 0px 5px 2px black;
+    animation-name:opacarTitulo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes opacarTitulo{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+#barra {
+    width: 100%;
+    background: #143F6B;
+    height: 50px;
+    top: 0px;
+}
+
+#logo {
+    width: 45px;
+    margin-top: 1px;
+    position: absolute;
+    left: 20px;
+    top: 3px;
+}
+
+#nombre {
+    position: absolute;
+    color: white;
+    left: 75px;
+    top: 15px;
+}
+
+#encabezado {
+    background-image: url("../IMG/Banner Sistemas.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+#banner {
+    background: rgba(228, 209, 185, 0.49);
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+}
+
+#navegacion {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #D0C9C0;
+    width: 20%;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.ico {
+    position: relative;
+    right: 22px;
+    top: 7px;
+}
+
+#menu li a {
+    color: #f0f8ff;
+    font-family: bold 120% Arial, Helvetica, sans-serif;
+#f0f8ff    letter-spacing: 2px;
+    position: relative;
+    bottom: 8px;
+}
+
+#menu li:hover {
+    background-color: #DEA057;
+}
+
+#parrafo {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+    margin-top: 75px;
+}
+
+.parrafo {
+    text-align: justify;
+    font-size: 1.5em;
+    color: white;
+    background-color: #001E6C;
+ }
+
+
+#btn_contactos {
+    background-color: #a9a9a9;
+    text-align: center;
+}
+
+.btn {
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Comentarios*/
+
+#contenido {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contenido article h3 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: zecko-sans;
+    font-size: 1.5em;
+    color: white;
+    /*background-color: white;*/
+    /*padding: 12px;box-shadow: 0px 4px 8px #446A46;*/
+}
+
+.formulario {
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenido_form{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px double black;
+    border-spacing: 10px;
+    background-color: lightblue;
+    table-layout: fixed;
+}
+
+.contenido_form tr:nth-child(even){
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    height: 40px;
+    text-align: center;
+}
+
+.contenido_form tr:nth-child(odd){
+    background-color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    height: 40px;
+    text-align: center;
+}
+
+.contenido_form tr:first-child{
+    background-color: #143F6B;
+    color: white;
+    text-align: center;
+}
+
+.contenido_form tr:last-child{
+    background-color:  #143F6B;
+    text-align: center;
+}
+
+#btn_enviar{
+    width: 100px;
+    height: 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #417D7A;
+    border-radius: 15px;
+    border: none;
+}
+
+#btn_enviar:hover{
+    background-color: #E5CB9F;
+}
+
+/* Follow */
+.social {
+  margin: 50px;
+}
+.social p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a i {
+  font-size: 3rem;
+}
+

@@ -1,0 +1,10 @@
+
+
+<style type="text/css">
+[required]{  
+borde-color:blue; 
+box-shadow 0px,0px,5px grey;
+
+:invalid 
+border-color:green; 
+box-shandow 0px 0px 5px grey; 
